@@ -1,0 +1,11 @@
+body {
+  background-color: #f7f8fa;
+  color: #17202b;
+}
+
+.brand-mark {
+  padding: 3px 7px;
+  border-radius: 3px;
+  background-color: #17202b;
+  color: white;
+}
