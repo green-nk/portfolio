@@ -3,9 +3,26 @@ body {
   color: #17202b;
 }
 
+.site-header {
+  background-color: #f7f8fa;
+}
+
 .brand-mark {
   padding: 3px 7px;
   border-radius: 3px;
   background-color: #17202b;
   color: white;
+}
+
+.terminal {
+  min-height: 240px;
+  background-color: #17202b;
+}
+
+.terminal-line {
+  color: #d8e0e8;
+}
+
+.terminal-result {
+  color: #73c991;
 }

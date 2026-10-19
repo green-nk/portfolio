@@ -19,10 +19,10 @@
 </head>
 
 <body>
-  <header class="border-bottom site-header">
+  <header class="border-bottom sticky-top site-header">
     <nav class="navbar navbar-expand-md py-2">
       <div class="container">
-        <a class="navbar-brand fw-semibold font-monospace" href="#"><span class="brand-mark me-2">NK</span>Nakarin
+        <a class="navbar-brand fw-semibold font-monospace" href="#"><span class="me-2 brand-mark">NK</span>Nakarin
           Korsuwan<span class="text-primary">.</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation"
           aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,17 +41,34 @@
   </header>
 
   <main>
-    <section class="container py-5">
-      <h1 class="display-4 fw-semibold mb-5 text-capitalize">Building machine learning that <span class="text-primary">works</span> for people.</h1>
-      <p class="lead text-secondary">I'm Nakarin, an ML engineer turning messy data and ambitious ideas into realiable, human-centered products.</p>
-  
-      <div class="d-flex flex-wrap gap-3 mt-4">
-        <a href="./work.html" class="btn btn-primary">
-          Explore my work <i class="bi bi-arrow-up-right"></i>
-        </a>
-        <a href="./contact.html" class="btn btn-outline-secondary">Let's talk</a>
+    <section class="container py-5 border-bottom">
+      <div class="row">
+        <div class="col-lg">
+          <h1 class="display-4 fw-semibold mb-4 text-capitalize">Building machine learning that <span
+              class="text-primary">works</span> for people.</h1>
+          <p class="lead text-secondary">I'm Nakarin, an ML engineer turning messy data and ambitious ideas into
+            realiable, human-centered products.</p>
+
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="./work.html" class="btn btn-primary">
+              Explore my work <i class="bi bi-arrow-up-right"></i>
+            </a>
+            <a href="./contact.html" class="btn btn-outline-secondary">Let's talk</a>
+          </div>
+          <p class="small text-secondary text-uppercase font-monospace mt-4">Based in Bangkok, TH · Open to remote</p>
+        </div>
+
+        <div class="col-lg">
+          <div class="p-4 rounded font-monospace mt-5 terminal">
+            <p class="mb-5 terminal-line">$ python train.py --config baseline.yml</p>
+            <p class="mb-2 terminal-result">Model evaluation completed</p>
+            <div class="text-light">
+              <p class="mb-1">accuracy: 0.98</p>
+              <p>latency: 77 ms</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <p class="small text-secondary text-uppercase font-monospace mt-4">Based in Bangkok, TH · Open to remote</p>
     </section>
   </main>
 
