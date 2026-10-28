@@ -42,7 +42,7 @@
   <main class="flex-grow-1">
     <section class="container py-5">
       <div class="row g-3">
-        <div class="col-md">
+        <div class="col-lg">
           <p class="small text-secondary text-uppercase font-monospace"><span class="status-dot"></span>Good things
             start
             here</p>
@@ -53,31 +53,31 @@
           <p class="lead text-secondary mt-3">Tell me what you're trying to build, what's getting in the way, and what
             success looks like.</p>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <form>
             <div class="mb-3">
               <label for="name" class="form-label">Your name</label>
-              <input type="text" class="form-control" id="nameInput" placeholder="Jane Smith" required>
+              <input type="text" class="form-control" name="name" id="nameInput" placeholder="Jane Smith" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="emailInput" placeholder="jane@company.com" required>
+              <input type="email" class="form-control" name="email" id="emailInput" placeholder="jane@company.com" required>
             </div>
             <div class="mb-3">
               <label for="project" class="form-label">What kind of ML work is this?</label>
-              <select class="form-select" id="projectSelection">
-                <option disabled selected>Choose a starting point</option>
-                <option>RAG or Harness</option>
-                <option>Time Series Analysis</option>
-                <option>Computer Vision</option>
-                <option>Classification</option>
-                <option>Others</option>
+              <select class="form-select" name="project" id="projectSelection">
+                <option disabled selected value="">Choose a starting point</option>
+                <option value="RAG or Harness">RAG or Harness</option>
+                <option value="Time Series Analysis">Time Series Analysis</option>
+                <option value="Computer Vision">Computer Vision</option>
+                <option value="Classification">Classification</option>
+                <option value="Others">Others</option>
               </select>
             </div>
             <div class="mb-3">
               <label class="form-label" for="message">A little more details <span
                   class="text-secondary">(optional)</span></label>
-              <textarea class="form-control" id="messageInput" rows="4"
+              <textarea class="form-control" name="message" id="messageInput" rows="4"
                 placeholder="Data, users, constraints, timeline, or anything else..."></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Send a note <i class="bi bi-arrow-up-right"></i></button>
