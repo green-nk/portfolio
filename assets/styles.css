@@ -7,7 +7,7 @@ body {
   background-color: #f7f8fa;
 }
 
-.brand-mark {
+span.brand-mark {
   padding: 3px 7px;
   border-radius: 3px;
   background-color: #17202b;
@@ -19,11 +19,11 @@ body {
   background-color: #17202b;
 }
 
-.terminal-line {
+div .terminal-line {
   color: #d8e0e8;
 }
 
-.terminal-result {
+#terminal-result {
   color: #73c991;
 }
 
