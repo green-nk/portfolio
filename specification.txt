@@ -1,0 +1,24 @@
+There are more than 10 HTML tags used. 10 of them are listed as followed:
+- header
+- nav
+- div
+- a
+- span
+- button
+- main
+- section
+- h1
+- p
+
+At least 5 CSS properties are required. Here are some examples in the project:
+- font-size
+- background-color
+- color
+- min-height
+- padding
+
+Bootstrap5 is mainly used to style the project. I utilize grid layout, form control and several components such as navigation bar and card.
+Moreover, I take its utiliy classes to help style the project for consistency.
+
+In general, Javascript can be used for dynamic aesthetic changes to the web page and/or implement the logic on it.
+This project has a filter implemented for displaying specific project based on selected category and preventing the default behavior of form refresh. 
