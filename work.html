@@ -49,15 +49,15 @@
       <p class="lead text-secondary mt-3">Selected project ranging from harness, computer vision and production ML
         systems.</p>
       <div class="btn-group" role="group" aria-label="Project filter">
-        <button type="button" class="btn btn-outline-primary active">All</button>
-        <button type="button" class="btn btn-outline-primary">Harness</button>
-        <button type="button" class="btn btn-outline-primary">Modeling</button>
-        <button type="button" class="btn btn-outline-primary">Analysis</button>
+        <button type="button" class="btn btn-outline-primary filter-button active" data-filter="all">All</button>
+        <button type="button" class="btn btn-outline-primary filter-button" data-filter="harness">Harness</button>
+        <button type="button" class="btn btn-outline-primary filter-button" data-filter="modeling">Modeling</button>
+        <button type="button" class="btn btn-outline-primary filter-button" data-filter="analysis">Analysis</button>
       </div>
     </section>
     <section class="container pb-5">
       <div class="row row-cols-1 g-4">
-        <article class="col">
+        <article class="col active" data-category="harness">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -75,7 +75,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="modeling">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -93,7 +93,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="analysis">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -112,7 +112,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="modeling">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -131,7 +131,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="modeling">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -150,7 +150,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="modeling">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -170,7 +170,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="analysis">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -190,7 +190,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="analysis">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -210,7 +210,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="modeling">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
@@ -230,7 +230,7 @@
             </div>
           </div>
         </article>
-        <article class="col">
+        <article class="col active" data-category="modeling">
           <div class="card h-100">
             <div class="card-body project-preview">
               <div class="d-flex justify-content-between align-items-center">
